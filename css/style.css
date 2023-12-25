@@ -1,0 +1,11 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.site-wrapper{
+  width: 1440px;
+  height: 100vh;
+  border: 1px solid red;
+  margin: auto;
+}

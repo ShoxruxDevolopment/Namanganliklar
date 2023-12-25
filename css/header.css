@@ -1,0 +1,147 @@
+header{
+  width: 100%;
+  height: 105px;
+  border: 1px solid green;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color:#F6F6F6;
+
+}
+.header-container{
+  display: flex;
+  width: 1200px;
+  height: 45px;
+  margin: auto;
+  /* border: 1px solid blue; */
+}
+
+.logo-text{
+  width: 276px;
+  height: 45px;
+
+}
+
+
+h2{
+
+  font-size: 24px;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Rubik', sans-serif;
+  height: 45px;
+  padding-top: 9px;
+  font-weight: 700;
+  color: #7296EE;
+  background-color:#fff;
+  /* border: 1px solid#7296EE; */
+
+}
+p{
+  margin-top: 13px;
+
+
+
+}
+.dollar-sign{
+  font-size: 16px;
+  margin-left: 41px;
+  font-family: 'Rubik', 'Open Sans', sans-serif;
+  font-weight: 400;
+  color:#555555;
+
+  }
+  .rubl-sign{
+    font-size: 16px;
+    font-family: 'Rubik', 'Open Sans', sans-serif;
+    margin-left: 25px;
+    font-weight: 400;
+    color:#555555;
+
+  }
+
+.dollar{
+  font-weight: 500;
+  color:#2959CE;
+  margin-right: 5px;
+}
+.rubl{
+  font-weight: 500;
+  color:#2959CE;
+  margin-right: 5px;
+}
+.search{
+  display: flex;
+  align-items: center;
+  width: 275px;
+  height: 45px;
+  border-radius: 60px;
+  background-color: #fff;
+  /* border: 1px solid yellow; */
+  margin-right: 25px;
+
+}
+.search-icon{
+  padding-top: 13px;
+  padding-left: 15px;
+  padding-bottom: 12px;
+
+
+}
+.poisk-text{
+  font-size: 14px;
+  font-family: 'Rubik', 'Open Sans', sans-serif;
+  font-weight: 400;
+  color:#8D8D8D;
+  margin-left: 6px;
+}
+.right-header-elements{
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+
+
+
+}
+.language{
+  display: flex;
+  align-items:center;
+  /* justify-content: center; */
+  width: 70px;
+  height: 36px;
+  border-radius: 39px;
+  background-color: #DCE6FF;
+  margin-right: 25px;
+}
+.uz-language{
+  width: 30px;
+  height: 30px;
+  font-size: 13px;
+  font-family: 'Rubik', 'Open Sans', sans-serif;
+  font-weight: 400;
+  color:black;
+  border-radius: 50%;
+  background-color:white;
+  padding: 8px 7px 8px 7px;
+  margin-left: 3px;
+
+}
+.ru-language{
+  font-size: 13px;
+  font-family: 'Rubik', 'Open Sans', sans-serif;
+  font-weight: 400;
+  color:#A6A6A6;
+  padding: 8px 7px 8px 7px;
+
+}
+.button-login{
+  width: 89px;
+  height: 45px;
+  font-size: 16px;
+  font-family: 'Rubik', 'Open Sans', sans-serif;
+  font-weight: 500;
+  text-decoration: none;
+  background-color:#7296EC;
+  color:white;
+  text-align: center;
+  padding-top: 13px;
+  border-radius:10px;
+}
