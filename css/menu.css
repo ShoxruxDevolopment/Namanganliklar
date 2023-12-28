@@ -4,8 +4,27 @@
   box-sizing: border-box;
 }
 .menu-container{
+
   width: 1200px;
   height: 45px;
   margin: auto;
-  border: 1px solid saddlebrown;
+  margin-top: 30px;
+  /* border: 1px solid saddlebrown; */
+}
+.menu-ul{
+  display: flex;
+  justify-content: space-between;
+
+}
+.menu-ul a{
+ list-style: none;
+ text-decoration: none;
+ font-size: 18px;
+ color: #7F7F7F;
+ font-family: 'Rubik', 'Open Sans', sans-serif;
+ font-weight: 500;
+}
+hr{
+  margin-top: 20px;
+  color:#D1D1D1;
 }
