@@ -5,18 +5,22 @@
 }
 .main-section-container{
   width: 1200px;
-  height: 100vh;
+  /* display: flex; */
+  /* flex-wrap: nowrap; */
+  /* height: 100vh; */
   margin: auto;
   border:1px solid yellowgreen;
 }
 .top-main-section{
  display:flex;
  justify-content: space-between;
+ margin-bottom: 10px;
 
 }
 .first-news{
 width: 393px;
 height: 382px;
+border-radius:15px;
 padding: 20px 17px 15px 17px;
 background-color: #F6F6F6;
 
@@ -35,4 +39,52 @@ font-size: 16px;
 line-height: 22px;
 font-family: 'Rubik','Open Sans', sans-serif;
 font-weight: 400;
+color:#4A4B4C;
+padding-right:13px;
+margin-bottom: 15px;
+margin-top: 0;
+}
+.flag-germany{
+  width: 359px;
+  height: 165px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+.sign-source{
+  display: flex;
+  align-items:center;
+}
+.source-name{
+font-size: 12px;
+font-family: "Rubik",'Open Sans', sans-serif;
+font-weight: 400;
+color:#5E5F61;
+margin-left: 10px;
+
+}
+.mini-sign{
+ width: 20px;
+ height: 20px;
+}
+.wheat{
+  width: 359px;
+  height: 165px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+.car{
+  width: 359px;
+  height: 165px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+.thirty-news{
+  width: 393px;
+  height: 382px;
+  border-radius:15px;
+  padding: 20px 16px 15px 16px;
+  background-color: #F6F6F6;
+}
+.news-header3{
+ padding-right: 14px;
 }
