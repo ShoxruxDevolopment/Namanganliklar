@@ -126,24 +126,21 @@ background-image: url("../img/fon.png");
   display: flex;
   width: 100%;
   /* height: 100vh; */
-  border:1px solid blue;
+  /* border:1px solid blue; */
 }
 .left-main-section{
   flex-grow: 2;
-  border:1px solid yellow;
+  /* border:1px solid yellow; */
 }
 
-.right-main-section{
-  flex-grow: 1;
-  border:1px solid green;
-}
+
 .header-main-bottom{
   font-size: 24px;
   line-height: 28px;
   font-family: "Rubik",'Open Sans', sans-serif;
   font-weight: 500;
   color:#000000;
-  margin-bottom: 40px;
+  margin-bottom: 10px;
 }
 .mini-news{
   width: 797px;
@@ -178,6 +175,78 @@ background-image: url("../img/fon.png");
   margin-top: 0;
 
 }
-.texts-mini-news{
+.mini-news-last{
+  margin-bottom: 17px;
+}
+.show-again{
+display: flex;
+align-items:center;
+justify-content: center;
+width: 796px;
+height: 53px;
+background-color:#EAEAEA;
+border-radius:10px;
+margin-bottom: 100px;
 
+}
+.show-again-text{
+font-size: 16px;
+line-height: 18px;
+font-family: "Rubik","Open Sans", sans-serif;
+font-weight: 500;
+}
+.right-main-section{
+  width: 393px;
+
+  flex-grow: 1;
+  /* border:1px solid green; */
+}
+.right-top-main-section{
+  /* height: 100vh; */
+  background-color:#F6F6F6;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-left: 17px;
+  padding-bottom: 25px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  border-radius:15px;
+}
+.news-bottom-header{
+font-size: 24px;
+line-height: 28px;
+font-family: "Rubik","Open Sans", sans-serif;
+font-weight: 500;
+margin-bottom: 25px;
+}
+.news-bottom-header2{
+  font-size: 18px;
+  line-height: 24px;
+  font-family: "Rubik","Open Sans", sans-serif;
+  font-weight: 500;
+  margin-bottom: 8px;
+  color:#000000;
+}
+.sources-news-name-bottom{
+ font-size: 13px;
+ line-height: 15px;
+ font-family: "Rubik","Open Sans", sans-serif;
+ font-weight: 400;
+ color:#5E5F61;
+ margin-bottom: 20px;
+}
+.news-bottom-horizontal{
+  width: 359px;
+  height: 1px;
+  color:#D2D2D2;
+  margin-bottom: 20px;
+
+}
+.right-bottom-advertisement{
+  width: 100%;
+  height: 320px;
+  margin-left: 10px;
+}
+.your-advertaisment{
+  border-radius:10px;
 }
