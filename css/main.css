@@ -174,6 +174,9 @@ background-image: url("../img/fon.png");
 .mini-sign2{
   margin-left: 15px;
 }
+.mini-sign3{
+  margin-left: 0;
+}
 .source-name2{
   margin-top: 0;
 
@@ -252,4 +255,65 @@ margin-bottom: 25px;
 }
 .your-advertaisment{
   border-radius:10px;
+}
+
+.sign-source2{
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+.header-active-list{
+ font-size: 26px;
+ line-height: 36px;
+ word-wrap: break-word;
+ font-family: "Rubik","Open Sans", sans-serif;
+ font-weight: 500;
+ color:#000000;
+ margin-top: 0;
+ margin-bottom: 20px;
+
+}
+.about-tesla{
+  width: 797px;
+  height: 300px;
+  margin-bottom: 25px;
+}
+.text-tesla{
+ font-size: 20px;
+ line-height: 30px;
+ font-family: "Rubik","Open Sans", sans-serif;
+ font-weight: 400;
+ margin-top: 0;
+ margin-bottom: 25px;
+ color:#000000;
+}
+.text-tesla p:last-child{
+  margin-bottom: 50px;
+}
+.hr-active{
+  width: 780px;
+  border: 1px solid #D2D2D2;
+  margin-top: 50px;
+  margin-bottom: 60px;
+}
+.your-interes{
+font-size: 24px;
+line-height: 28px;
+font-family: "Rubik","Open Sans", sans-serif;
+font-weight: 500;
+margin-bottom: 20px;
+
+}
+.interes-news{
+  width: 393px;
+  height: 207px;
+}
+.your-iteresting{
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+.tesla-link{
+  text-decoration: none;
+  list-style: none;
 }
