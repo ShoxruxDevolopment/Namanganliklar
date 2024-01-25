@@ -145,3 +145,19 @@ p{
   padding-top: 13px;
   border-radius:10px;
 }
+.global-search-form-input{
+  padding-top: 15px;
+  padding-bottom: 13px;
+  padding-left: 40px;
+  padding-right: 20px;
+  font-size: 14px;
+  line-height: normal;
+  border:none;
+  border-radius:60px;
+}
+.global-search-form{
+  margin-right: 25px;
+}
+*:focus{
+  outline: dashed #7296EC;
+}
